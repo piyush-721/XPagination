@@ -58,7 +58,6 @@ function App() {
       </table>
       <div style={{marginTop:"20px"}}>
           <button type='button'
-            disabled={currentPage === 1}
             onClick={handlePrevious}
             style={{
                 padding:"5px 10px",
