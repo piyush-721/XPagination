@@ -30,6 +30,7 @@ function App() {
     .then((data) => setTableData(data))
     .catch((e) => {
       console.error("Error fetching data", e);
+      alert("failed to fetch data");
     })
   }, [])
 
